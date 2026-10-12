@@ -1,14 +1,8 @@
 {
   "company": {
     "eyebrow": "Acerca de MDK Studio",
-    "title": "Tecnología a medida para tu negocio",
-    "description": "MDK Studio es una empresa de desarrollo de software con sede en São Luís, Maranhão, Brasil. Creamos sitios web, aplicaciones y sistemas web a medida, combinando diseño y desarrollo para atender las necesidades de cada negocio.",
-    "specialtiesLabel": "Nuestras especialidades",
-    "specialties": {
-      "websites": "Sitios web",
-      "apps": "Aplicaciones",
-      "systems": "Sistemas web"
-    }
+    "title": "Las personas detrás de MDK",
+    "description": "MDK Studio es una empresa brasileña de desarrollo de software, preparada para atender a negocios en Brasil y en todo el mundo. Conoce a los profesionales de nuestro equipo."
   },
   "howWeWork": {
     "eyebrow": "De la idea a la entrega",
@@ -47,29 +41,27 @@
   },
   "services": {
     "title": "Servicios",
-    "descriptionPart1": "En MDK, transformamos ideas en experiencias digitales increíbles. Ofrecemos una gama completa de servicios para satisfacer sus necesidades tecnológicas,",
-    "descriptionPart2": "asegurando que cada proyecto sea un éxito de principio a fin.",
+    "description": "Sistemas, sitios web, aplicaciones y consultoría para tu negocio.",
+    "contact": "Hablemos de tu proyecto",
+    "readMore": "Saber más",
     "items": {
-      "websiteDevelopment": {
-        "type": "Desarrollo Web y de Sistemas",
-        "abstractPart1": "Tu sitio web puede ser la herramienta de ventas más eficiente de tu empresa.",
-        "abstractPart2": "Creamos soluciones digitales personalizadas, combinando sitios optimizados y sistemas a medida para obtener resultados reales.",
-        "description": "Soluciones digitales de alto rendimiento a medida. Enfoque total en <strong class=\"text-white font-medium\">conversión, usabilidad y diseño premium</strong>. Construimos una máquina para atraer clientes 24/7."
+      "systems": {
+        "type": "Sistemas",
+        "description": "Sistemas web a medida para organizar procesos, integrar herramientas y facilitar la operación de tu empresa."
+      },
+      "websites": {
+        "type": "Sitios web",
+        "description": "Sitios corporativos y landing pages adaptables, con navegación clara para presentar tu negocio."
+      },
+      "apps": {
+        "type": "Aplicaciones Android/iOS",
+        "description": "Aplicaciones para Android e iOS, con interfaces intuitivas y funciones pensadas para tus usuarios."
       },
       "consulting": {
-        "type": "Consultoría en Tecnología",
-        "abstractPart1": "Decisiones más inteligentes, resultados más rápidos.",
-        "abstractPart2": "Ayudamos a tu empresa a planificar e implementar soluciones tecnológicas que impulsen el crecimiento con eficiencia y seguridad.",
-        "description": "Decisiones inteligentes que reducen costos y escalan ganancias. Diseñamos la <strong class=\"text-white font-medium\">ruta tecnológica ideal</strong> para que su empresa crezca con ventaja competitiva."
-      },
-      "uxuidesign": {
-        "type": "Diseño UX/UI",
-        "abstractPart1": "Los clientes encantados vuelven siempre.",
-        "abstractPart2": "Nuestros diseños no solo son bonitos, están estratégicamente pensados para captar la atención y convertir a los visitantes en clientes leales.",
-        "description": "Interfaces memorables que captan la atención en el primer segundo. Transformamos la complejidad en <strong class=\"text-white font-medium\">experiencias fluidas e intuitivas</strong>, diseñadas para generar conversión y confianza."
+        "type": "Consultoría",
+        "description": "Análisis y orientación técnica para elegir tecnologías, planificar proyectos y mejorar soluciones existentes."
       }
-    },
-    "readMore": "Saber más"
+    }
   },
   "modalForm": {
     "buttonLabel": "Solicitar Presupuesto",
@@ -88,9 +80,6 @@
     "placeholderEmail": "Ingrese su correo electrónico",
     "placeholderPhone": "(xx) xxxxx-xxxx",
     "placeholderService": "Elija un servicio",
-    "serviceOption1": "Desarrollo Web y de Sistemas",
-    "serviceOption2": "Consultoría en Tecnología",
-    "serviceOption3": "Diseño UX/UI",
     "successMessage": "¡Su solicitud ha sido enviada con éxito!",
     "errorMessage": "Error al enviar el correo electrónico. Inténtelo de nuevo.",
     "fillAllFieldsMessage": "Por favor, complete todos los campos.",

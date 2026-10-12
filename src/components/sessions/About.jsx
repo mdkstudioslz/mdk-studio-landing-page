@@ -14,32 +14,12 @@ const About = () => {
 
   return (
     <section id="about" aria-labelledby="about-company-title" className="bg-black text-white pt-24 pb-16 scroll-mt-28">
-      <div className="max-w-7xl mx-auto px-6 sm:px-12 mb-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
-          <div>
-            <p className="text-brand-accent text-xs font-medium uppercase tracking-[0.2em] mb-4">{t('company.eyebrow')}</p>
-            <h2 id="about-company-title" className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold tracking-tight leading-tight">{t('company.title')}</h2>
-          </div>
-          <div className="lg:pt-8">
-            <p className="text-gray-300 text-lg font-light leading-relaxed">{t('company.description')}</p>
-            <ul aria-label={t('company.specialtiesLabel')} className="flex flex-wrap gap-3 mt-8">
-              {['websites', 'apps', 'systems'].map((key) => (
-                <li key={key} className="rounded-full border border-brand-secondary/30 bg-brand-secondary/10 px-5 py-2 text-sm text-gray-200">{t(`company.specialties.${key}`)}</li>
-              ))}
-            </ul>
-          </div>
-        </div>
-        <div className="mt-16 h-px bg-gradient-to-r from-brand-accent/50 via-brand-secondary/30 to-transparent" />
+      <div className="max-w-3xl mx-auto px-6 text-center">
+        <p className="text-brand-accent text-xs font-medium uppercase tracking-[0.2em] mb-4">{t('company.eyebrow')}</p>
+        <h2 id="about-company-title" className="text-4xl sm:text-5xl font-display font-semibold tracking-tight leading-tight">{t('company.title')}</h2>
+        <p className="mt-6 text-gray-400 text-lg font-light leading-relaxed">{t('company.description')}</p>
       </div>
-      <div className="container mx-auto px-6 text-center">
-        <h3 className="text-3xl sm:text-4xl font-display font-bold">{t('aboutUs.title')}</h3>
-        <div className="flex justify-center mt-4 mb-6">
-          <span className="w-16 h-1 bg-brand-accent rounded-full"></span>
-        </div>
-        <p className="max-w-2xl mx-auto text-gray-300 text-lg">{t('aboutUs.description')}</p>
-      </div>
-
-      <div className="container mx-auto px-4 sm:px-8 lg:px-16 xl:px-32 py-12 mt-10">
+      <div className="container mx-auto px-4 sm:px-8 lg:px-16 xl:px-32 pt-12 pb-8">
         <div className="flex flex-col lg:flex-row justify-center gap-16 lg:gap-24">
           {dadosTime.map(({ key, nome, foto, redes_sociais }, index) => (
             <motion.div
@@ -58,7 +38,7 @@ const About = () => {
                 />
               </div>
               
-              <h4 className="text-3xl font-display font-medium text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-brand-secondary transition-all duration-300">{nome}</h4>
+              <h3 className="text-3xl font-display font-medium text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-brand-secondary transition-all duration-300">{nome}</h3>
               <p className="text-gray-500 font-light text-sm tracking-[0.2em] uppercase mb-6">{t(`aboutUs.functionTeam.${key}`)}</p>
 
               <div className="flex space-x-6 opacity-0 group-hover:opacity-100 -translate-y-2 group-hover:translate-y-0 transition-all duration-500">

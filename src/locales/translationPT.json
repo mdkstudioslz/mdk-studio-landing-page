@@ -1,14 +1,8 @@
 {
   "company": {
     "eyebrow": "Sobre a MDK Studio",
-    "title": "Tecnologia sob medida para o seu negócio",
-    "description": "A MDK Studio é uma empresa de desenvolvimento de software sediada em São Luís, Maranhão. Criamos sites, aplicativos e sistemas web sob medida, combinando design e desenvolvimento para atender às necessidades de cada negócio.",
-    "specialtiesLabel": "Nossas especialidades",
-    "specialties": {
-      "websites": "Sites",
-      "apps": "Aplicativos",
-      "systems": "Sistemas web"
-    }
+    "title": "Quem está por trás da MDK",
+    "description": "A MDK Studio é uma empresa brasileira de desenvolvimento de software, pronta para atender negócios no Brasil e no mundo. Conheça os profissionais que fazem parte da nossa equipe."
   },
   "howWeWork": {
     "eyebrow": "Da ideia à entrega",
@@ -47,29 +41,27 @@
   },
   "services": {
     "title": "Serviços",
-    "descriptionPart1": "Na MDK, transformamos ideias em experiências digitais incríveis. Oferecemos uma gama completa de serviços para atender às suas necessidades de tecnologia,",
-    "descriptionPart2": "garantindo que cada projeto seja um sucesso do início ao fim.",
+    "description": "Sistemas, sites, aplicativos e consultoria para o seu negócio.",
+    "contact": "Converse sobre seu projeto",
+    "readMore": "Saiba mais",
     "items": {
-      "websiteDevelopment": {
-        "type": "Desenvolvimento Web & Sistemas",
-        "abstractPart1": "Seu site pode ser o vendedor mais eficiente da sua empresa.",
-        "abstractPart2": "Criamos soluções digitais personalizadas, unindo sites otimizados e sistemas sob medida para gerar resultados reais.",
-        "description": "Soluções digitais de alta performance feitas sob medida. Foco total em <strong class=\"text-white font-medium\">conversão, usabilidade e design premium</strong>. Mais do que um simples site, construímos uma máquina capaz de atrair e fidelizar clientes para o seu negócio 24 horas por dia."
+      "systems": {
+        "type": "Sistemas",
+        "description": "Sistemas web sob medida para organizar processos, integrar ferramentas e facilitar a operação da sua empresa."
+      },
+      "websites": {
+        "type": "Sites",
+        "description": "Sites institucionais e landing pages responsivos, com navegação clara e foco na apresentação do seu negócio."
+      },
+      "apps": {
+        "type": "Aplicativos Android/iOS",
+        "description": "Aplicativos para Android e iOS, com interfaces intuitivas e funcionalidades pensadas para seus usuários."
       },
       "consulting": {
-        "type": "Consultoria em Tecnologia",
-        "abstractPart1": "Decisões mais inteligentes, resultados mais rápidos.",
-        "abstractPart2": "Ajudamos sua empresa a planejar e implementar soluções tecnológicas que geram crescimento com eficiência e segurança.",
-        "description": "Decisões inteligentes que reduzem custos e escalam lucros. Analisamos seu cenário e desenhamos o <strong class=\"text-white font-medium\">roteiro tecnológico ideal</strong> para sua empresa crescer com enorme vantagem competitiva."
-      },
-      "uxuidesign": {
-        "type": "Design UX/UI",
-        "abstractPart1": "Clientes encantados voltam sempre.",
-        "abstractPart2": " Nossos designs não são apenas bonitos, são estrategicamente pensados para prender a atenção e converter visitantes em clientes fiéis.",
-        "description": "Interfaces memoráveis que prendem a atenção do usuário no primeiro segundo. Transformamos complexidade em <strong class=\"text-white font-medium\">experiências fluidas e intuitivas</strong>, desenhadas estrategicamente para gerar conversão, confiança e autoridade."
+        "type": "Consultoria",
+        "description": "Análise e orientação técnica para escolher tecnologias, planejar projetos e melhorar soluções existentes."
       }
-    },
-    "readMore": "Saiba Mais"
+    }
   },
   "modalForm": {
     "buttonLabel": "Solicitar Orçamento",
@@ -88,9 +80,6 @@
     "placeholderEmail": "Digite seu email",
     "placeholderPhone": "(xx) xxxxx-xxxx",
     "placeholderService": "Escolha um serviço",
-    "serviceOption1": "Desenvolvimento Web & Sistemas",
-    "serviceOption2": "Consultoria em Tecnologia",
-    "serviceOption3": "Design UX/UI",
     "successMessage": "Sua solicitação foi enviada com sucesso!",
     "errorMessage": "Erro ao enviar email. Tente novamente.",
     "fillAllFieldsMessage": "Por favor, preencha todos os campos.",

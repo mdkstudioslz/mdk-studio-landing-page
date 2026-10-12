@@ -1,14 +1,8 @@
 {
   "company": {
     "eyebrow": "About MDK Studio",
-    "title": "Technology tailored to your business",
-    "description": "MDK Studio is a software development company based in São Luís, Maranhão, Brazil. We build custom websites, apps and web systems, combining design and development to meet the needs of each business.",
-    "specialtiesLabel": "Our specialties",
-    "specialties": {
-      "websites": "Websites",
-      "apps": "Apps",
-      "systems": "Web systems"
-    }
+    "title": "The people behind MDK",
+    "description": "MDK Studio is a Brazilian software development company, ready to work with businesses in Brazil and around the world. Meet the professionals on our team."
   },
   "howWeWork": {
     "eyebrow": "From idea to delivery",
@@ -47,29 +41,27 @@
   },
   "services": {
     "title": "Services",
-    "descriptionPart1": "At MDK, we turn ideas into amazing digital experiences. We offer a full range of services to meet your technology needs,",
-    "descriptionPart2": "ensuring each project is a success from start to finish.",
+    "description": "Systems, websites, apps and consulting for your business.",
+    "contact": "Let's discuss your project",
+    "readMore": "Learn more",
     "items": {
-      "websiteDevelopment": {
-        "type": "Web & Systems Development",
-        "abstractPart1": "Your website can be your company's most efficient sales tool.",
-        "abstractPart2": "We create personalized digital solutions, combining optimized websites and custom systems to deliver real results.",
-        "description": "High-performance digital solutions tailored to you. Total focus on <strong class=\"text-white font-medium\">conversion, usability, and premium design</strong>. We build a machine to attract clients 24/7."
+      "systems": {
+        "type": "Systems",
+        "description": "Custom web systems to organize processes, connect tools and simplify your business operations."
+      },
+      "websites": {
+        "type": "Websites",
+        "description": "Responsive business websites and landing pages with clear navigation that showcase your business."
+      },
+      "apps": {
+        "type": "Android/iOS apps",
+        "description": "Android and iOS apps with intuitive interfaces and features designed around your users."
       },
       "consulting": {
-        "type": "Technology Consulting",
-        "abstractPart1": "Smarter decisions, faster results.",
-        "abstractPart2": "We help your company plan and implement tech solutions that drive growth with efficiency and security.",
-        "description": "Smart decisions that reduce costs and scale profits. We design the <strong class=\"text-white font-medium\">ideal technological roadmap</strong> for your company to grow with a competitive edge."
-      },
-      "uxuidesign": {
-        "type": "UX/UI Design",
-        "abstractPart1": "Delighted customers come back every time.",
-        "abstractPart2": "Our designs are not just beautiful; they are strategically designed to capture attention and turn visitors into loyal customers.",
-        "description": "Memorable interfaces that capture attention in the first second. We transform complexity into <strong class=\"text-white font-medium\">fluid and intuitive experiences</strong>, designed to drive conversion and trust."
+        "type": "Consulting",
+        "description": "Technical analysis and guidance to choose technologies, plan projects and improve existing solutions."
       }
-    },
-    "readMore": "More info"
+    }
   },
   "modalForm": {
     "buttonLabel": "Request a Quote",
@@ -88,9 +80,6 @@
     "placeholderEmail": "Enter your email",
     "placeholderPhone": "(xx) xxxxx-xxxx",
     "placeholderService": "Choose a service",
-    "serviceOption1": "Web & Systems Development",
-    "serviceOption2": "Technology Consulting",
-    "serviceOption3": "UX/UI Design",
     "successMessage": "Your request has been sent successfully!",
     "errorMessage": "Failed to send email. Please try again.",
     "fillAllFieldsMessage": "Please fill in all fields.",

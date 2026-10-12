@@ -44,14 +44,14 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="flex items-start space-x-3 group">
-              <FaPhone className="w-4 h-4 text-gray-500 group-hover:text-brand-accent mt-1 transition-colors" />
-              <div className="flex flex-col">
+            <div className="flex items-start space-x-3">
+              <FaPhone className="w-4 h-4 text-gray-500 mt-1" />
+              <div className="flex flex-col items-start">
                 <span className="text-xs text-gray-600 uppercase tracking-wider">{t('form.phone.title')}</span>
-                <a href="tel:+5598981600041" className="text-white group-hover:text-brand-accent transition-colors">
+                <a href="tel:+5598981600041" className="inline-block py-1 text-white hover:text-brand-accent hover:underline focus-visible:text-brand-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-accent transition-colors">
                   {t('form.phone.number')}
                 </a>
-                <a href="tel:+5535991675078" className="mt-1 text-white group-hover:text-brand-accent transition-colors">
+                <a href="tel:+5535991675078" className="mt-1 inline-block py-1 text-white hover:text-brand-accent hover:underline focus-visible:text-brand-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-accent transition-colors">
                   +55 (35) 99167-5078
                 </a>
               </div>

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useTranslation } from "react-i18next";
+import data from '/data.json';
 
 export const FormWpp = ({ onSuccess, onClose }) => {
   const { t } = useTranslation();
@@ -143,9 +144,9 @@ export const FormWpp = ({ onSuccess, onClose }) => {
             className="bg-black/50 text-white p-4 rounded-xl border border-white/10 focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-all duration-300 outline-none appearance-none"
           >
             <option value="">{t("formEmail.placeholderService")}</option>
-            <option value="Desenvolvimento de Sites">{t("formEmail.serviceOption1")}</option>
-            <option value="Desenvolvimento de Sistemas">{t("formEmail.serviceOption2")}</option>
-            <option value="Design UX/UI">{t("formEmail.serviceOption3")}</option>
+            {data.Servicos.map(({ key, value }) => (
+              <option key={key} value={value}>{t(`services.items.${key}.type`)}</option>
+            ))}
           </select>
         </div>
       </div>
