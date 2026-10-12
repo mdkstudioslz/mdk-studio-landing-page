@@ -69,14 +69,19 @@ function App() {
         <meta property="og:url" content={siteUrl} />
         <meta property="og:title" content={seo.title} />
         <meta property="og:description" content={seo.description} />
-        <meta property="og:image" content="https://mdkstudio.com.br/favicon.png" />
+        <meta property="og:image" content="https://mdkstudio.com.br/og-image.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="MDK Studio — Sites, apps e sistemas sob medida." />
         
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content={siteUrl} />
         <meta name="twitter:title" content={seo.title} />
         <meta name="twitter:description" content={seo.description} />
-        <meta name="twitter:image" content="https://mdkstudio.com.br/favicon.png" />
+        <meta name="twitter:image" content="https://mdkstudio.com.br/og-image.png" />
+        <meta name="twitter:image:alt" content="MDK Studio — Sites, apps e sistemas sob medida." />
 
         {/* JSON-LD Schema Markup */}
         <script type="application/ld+json">
@@ -85,8 +90,8 @@ function App() {
             "@type": "ProfessionalService",
             "name": "MDK Studio",
             "url": siteUrl,
-            "logo": "https://mdkstudio.com.br/favicon.png",
-            "image": "https://mdkstudio.com.br/favicon.png",
+            "logo": "https://mdkstudio.com.br/favicon.webp",
+            "image": "https://mdkstudio.com.br/og-image.png",
             "sameAs": [
               "https://www.instagram.com/mdkstudioslz/",
               "https://www.linkedin.com/company/mdk-studioslz/",
