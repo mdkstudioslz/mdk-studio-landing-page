@@ -51,6 +51,9 @@ const Footer = () => {
                 <a href="tel:+5598981600041" className="text-white group-hover:text-brand-accent transition-colors">
                   {t('form.phone.number')}
                 </a>
+                <a href="tel:+5535991675078" className="mt-1 text-white group-hover:text-brand-accent transition-colors">
+                  +55 (35) 99167-5078
+                </a>
               </div>
             </div>
           </div>
@@ -78,6 +81,10 @@ const Footer = () => {
         {/* Col 4: Legal */}
         <div className="flex flex-col space-y-4">
           <h4 className="text-white font-semibold text-sm uppercase tracking-wider">{t('footer.legal')}</h4>
+          <div className="space-y-1 text-sm font-light">
+            <p>MDK Studio LTDA</p>
+            <p>CNPJ: 31.979.470/0001-72</p>
+          </div>
           <ul className="space-y-2 text-sm font-light">
             <li>
               <a href={`/${currentLang}/privacy-policy`} className="hover:text-brand-accent transition-colors duration-200">
