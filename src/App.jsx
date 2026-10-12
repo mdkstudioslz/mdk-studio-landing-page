@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import WhatsAppButton from './components/common/WhatsAppButton';
 import Home from './components/sessions/Home';
 import About from './components/sessions/About';
+import HowWeWork from './components/sessions/HowWeWork';
 import Faq from './components/sessions/Faq';
 import { Servicos } from './components/sessions/Servicos';
 import ProjetosSection from './components/sessions/ProjetosSection';
@@ -59,10 +60,10 @@ function App() {
         <link rel="canonical" href={siteUrl} />
         
         {/* Hreflang Tags */}
-        <link rel="alternate" hreflang="pt" href="https://mdkstudio.com.br/pt" />
-        <link rel="alternate" hreflang="en" href="https://mdkstudio.com.br/en" />
-        <link rel="alternate" hreflang="es" href="https://mdkstudio.com.br/es" />
-        <link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt" />
+        <link rel="alternate" hrefLang="pt" href="https://mdkstudio.com.br/pt" />
+        <link rel="alternate" hrefLang="en" href="https://mdkstudio.com.br/en" />
+        <link rel="alternate" hrefLang="es" href="https://mdkstudio.com.br/es" />
+        <link rel="alternate" hrefLang="x-default" href="https://mdkstudio.com.br/pt" />
         
         {/* Open Graph Tags */}
         <meta property="og:type" content="website" />
@@ -119,6 +120,7 @@ function App() {
       <main>
         <Home/>
         <Servicos/>
+        <HowWeWork />
         <ProjetosSection />
         <About/>
         <Faq/>

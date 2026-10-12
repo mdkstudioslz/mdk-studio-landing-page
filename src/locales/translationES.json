@@ -1,4 +1,38 @@
 {
+  "company": {
+    "eyebrow": "Acerca de MDK Studio",
+    "title": "Tecnología a medida para tu negocio",
+    "description": "MDK Studio es una empresa de desarrollo de software con sede en São Luís, Maranhão, Brasil. Creamos sitios web, aplicaciones y sistemas web a medida, combinando diseño y desarrollo para atender las necesidades de cada negocio.",
+    "specialtiesLabel": "Nuestras especialidades",
+    "specialties": {
+      "websites": "Sitios web",
+      "apps": "Aplicaciones",
+      "systems": "Sistemas web"
+    }
+  },
+  "howWeWork": {
+    "eyebrow": "De la idea a la entrega",
+    "title": "Cómo trabajamos",
+    "description": "Un proceso claro para transformar las necesidades de tu negocio en una solución digital.",
+    "steps": {
+      "discovery": {
+        "title": "Entendemos tu proyecto",
+        "description": "Conversamos sobre tu negocio, tus objetivos y las necesidades del proyecto."
+      },
+      "planning": {
+        "title": "Definimos la solución",
+        "description": "Organizamos el alcance, los plazos y la inversión en una propuesta."
+      },
+      "development": {
+        "title": "Diseñamos y desarrollamos",
+        "description": "Transformamos la propuesta en diseño y software, con revisiones conjuntas a lo largo del proyecto."
+      },
+      "delivery": {
+        "title": "Entregamos y orientamos",
+        "description": "Realizamos las pruebas, ponemos la solución en marcha y te orientamos sobre su uso."
+      }
+    }
+  },
   "header": {
     "services": "Servicios",
     "gallery": "Proyectos",
