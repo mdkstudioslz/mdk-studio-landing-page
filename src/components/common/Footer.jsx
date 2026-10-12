@@ -51,6 +51,9 @@ const Footer = () => {
                 <a href="tel:+5598981600041" className="text-white group-hover:text-brand-accent transition-colors">
                   {t('form.phone.number')}
                 </a>
+                <a href="tel:+5535991675078" className="mt-1 text-white group-hover:text-brand-accent transition-colors">
+                  +55 (35) 99167-5078
+                </a>
               </div>
             </div>
           </div>
