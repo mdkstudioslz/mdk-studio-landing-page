@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { useEffect, useMemo, useState } from 'react';
 import {
   FiShield,
   FiDatabase,
@@ -36,7 +35,10 @@ const MathTrailPrivacyPolicy = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
 
-  const sections = t('mathtrailPrivacy.sections', { returnObjects: true }) || [];
+  const sections = useMemo(() => {
+    const translatedSections = t('mathtrailPrivacy.sections', { returnObjects: true });
+    return Array.isArray(translatedSections) ? translatedSections : [];
+  }, [t]);
 
   // Track active section on scroll
   useEffect(() => {

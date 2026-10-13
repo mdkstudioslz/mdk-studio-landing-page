@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import emailjs from '@emailjs/browser';
 import { useTranslation } from "react-i18next";
 import data from '/data.json';
@@ -187,4 +188,9 @@ export const FormWpp = ({ onSuccess, onClose }) => {
       </button>
     </form>
   );
+};
+
+FormWpp.propTypes = {
+  onSuccess: PropTypes.func.isRequired,
+  onClose: PropTypes.func.isRequired,
 };

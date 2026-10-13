@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 // import fundo from '../../assets/fundo.png'
-import marmore from '../../assets/marmore.webp';
-import check from '../../assets/check.svg';
 
 export const Planos = () => {
   const [isAnnual, setIsAnnual] = useState(false);

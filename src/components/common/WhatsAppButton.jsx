@@ -1,4 +1,3 @@
-import React from 'react';
 import zapzap from '../../assets/wpp.webp';
 
 const WhatsAppButton = () => {

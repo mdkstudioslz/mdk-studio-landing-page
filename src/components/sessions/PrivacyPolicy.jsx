@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FiShield, FiEye, FiDatabase, FiTrash2, FiMail, FiAlertCircle, FiLock, FiRefreshCw } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';

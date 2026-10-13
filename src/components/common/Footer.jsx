@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from '../../assets/image.webp';
 import { useTranslation } from 'react-i18next';
 import { FaInstagram, FaLinkedinIn, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';

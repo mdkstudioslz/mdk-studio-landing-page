@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import PrivacyHeader from './components/common/PrivacyHeader';
 import MathTrailDeleteAccount from './components/sessions/MathTrailDeleteAccount';
@@ -38,10 +38,10 @@ const MathTrailDeleteAccountApp = () => {
         <link rel="canonical" href={pageUrl} />
 
         {/* Hreflang Tags */}
-        <link rel="alternate" hreflang="pt" href="https://mdkstudio.com.br/pt/mathtrail/delete-account" />
-        <link rel="alternate" hreflang="en" href="https://mdkstudio.com.br/en/mathtrail/delete-account" />
-        <link rel="alternate" hreflang="es" href="https://mdkstudio.com.br/es/mathtrail/delete-account" />
-        <link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt/mathtrail/delete-account" />
+        <link rel="alternate" hrefLang="pt" href="https://mdkstudio.com.br/pt/mathtrail/delete-account" />
+        <link rel="alternate" hrefLang="en" href="https://mdkstudio.com.br/en/mathtrail/delete-account" />
+        <link rel="alternate" hrefLang="es" href="https://mdkstudio.com.br/es/mathtrail/delete-account" />
+        <link rel="alternate" hrefLang="x-default" href="https://mdkstudio.com.br/pt/mathtrail/delete-account" />
       </Helmet>
       <PrivacyHeader />
       <main>

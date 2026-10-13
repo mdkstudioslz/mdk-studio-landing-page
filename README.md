@@ -11,6 +11,28 @@ A landing page foi criada com o objetivo de apresentar a MDK Studio, seus servi�
 - React
 - Tailwind CSS
 
+## Ambiente de desenvolvimento
+
+Use Node.js 26.11.1, definido em `.nvmrc`, e o npm fornecido com essa versão.
+Com o fnm instalado, execute no PowerShell:
+
+```powershell
+fnm env --use-on-cd --shell power-shell | Out-String | Invoke-Expression
+fnm install
+fnm use
+npm ci
+if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+npm run dev
+```
+
+Copie `.env.example` apenas se ainda não houver um `.env` local e preencha as
+variáveis do EmailJS antes de testar o formulário.
+
+Para gerar a versão de produção, execute `npm run build`.
+O projeto também aceita Node.js 24 para publicação na Vercel, cuja documentação
+atualmente lista 24.x como a versão mais recente suportada. O campo `engines.node`
+mantém essa compatibilidade; o desenvolvimento local usa Node.js 26.
+
 ## Como Contribuir
 
 Para contribuir com o projeto, siga os passos abaixo:

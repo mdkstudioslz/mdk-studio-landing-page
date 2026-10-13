@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import PrivacyHeader from './components/common/PrivacyHeader';
 import MathTrailPrivacyPolicy from './components/sessions/MathTrailPrivacyPolicy';
@@ -38,10 +38,10 @@ const MathTrailPrivacyApp = () => {
         <link rel="canonical" href={pageUrl} />
 
         {/* Hreflang Tags */}
-        <link rel="alternate" hreflang="pt" href="https://mdkstudio.com.br/pt/mathtrail/privacy-policy" />
-        <link rel="alternate" hreflang="en" href="https://mdkstudio.com.br/en/mathtrail/privacy-policy" />
-        <link rel="alternate" hreflang="es" href="https://mdkstudio.com.br/es/mathtrail/privacy-policy" />
-        <link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt/mathtrail/privacy-policy" />
+        <link rel="alternate" hrefLang="pt" href="https://mdkstudio.com.br/pt/mathtrail/privacy-policy" />
+        <link rel="alternate" hrefLang="en" href="https://mdkstudio.com.br/en/mathtrail/privacy-policy" />
+        <link rel="alternate" hrefLang="es" href="https://mdkstudio.com.br/es/mathtrail/privacy-policy" />
+        <link rel="alternate" hrefLang="x-default" href="https://mdkstudio.com.br/pt/mathtrail/privacy-policy" />
       </Helmet>
       <PrivacyHeader />
       <main>

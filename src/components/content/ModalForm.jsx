@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
 import { createPortal } from "react-dom";
 import { IoCloseCircle } from "react-icons/io5";
 import { FormWpp } from "./FormWpp";
@@ -88,6 +89,12 @@ const ModalForm = ({ buttonText, buttonClassName, icon = true }) => {
       )}
     </>
   );
+};
+
+ModalForm.propTypes = {
+  buttonText: PropTypes.node,
+  buttonClassName: PropTypes.string,
+  icon: PropTypes.bool,
 };
 
 export default ModalForm;

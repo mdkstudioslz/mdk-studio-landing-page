@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
 import { createPortal } from "react-dom";
 import { IoCloseCircle } from "react-icons/io5";
 import { useTranslation } from "react-i18next";
@@ -59,6 +60,13 @@ const ModalServ = ({ servico, onClose }) => {
             )}
         </>
     );
+};
+
+ModalServ.propTypes = {
+  servico: PropTypes.shape({
+    key: PropTypes.string.isRequired,
+  }).isRequired,
+  onClose: PropTypes.func.isRequired,
 };
 
 export default ModalServ;
